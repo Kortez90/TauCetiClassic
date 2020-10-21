@@ -175,9 +175,9 @@ INITIALIZE_IMMEDIATE(/mob/living/carbon/human/dummy)
 			if(!internal.air_contents)
 				qdel(internal)
 			else
-				stat("Internal Atmosphere Info", internal.name)
-				stat("Tank Pressure", internal.air_contents.return_pressure())
-				stat("Distribution Pressure", internal.distribute_pressure)
+				stat("Internal Atmosphere Info: [internal.name]")
+				stat("Tank Pressure: [internal.air_contents.return_pressure()]")
+				stat("Distribution Pressure: [internal.distribute_pressure]")
 
 		CHANGELING_STATPANEL_STATS(null)
 
