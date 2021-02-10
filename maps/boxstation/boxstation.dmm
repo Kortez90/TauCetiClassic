@@ -28262,7 +28262,7 @@
 	},
 /area/station/gateway)
 "aYl" = (
-/obj/machinery/mineral/equipment_vendor,
+/obj/machinery/mineral/equipment_locker,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "brown"
